@@ -69,7 +69,7 @@ This "changes directory" and makes the named directory our new working
 directory. 
 
 > Question 1: How could we make sure that we moved?
-pwd to print working directory and see where we are.
+> pwd to print working directory and see where we are.
 
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
