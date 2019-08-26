@@ -68,7 +68,7 @@ cd test_directory
 This "changes directory" and makes the named directory our new working
 directory. 
 
-> Question 1: How could we make sure that we moved?
+> Question 1: How could we make sure that we moved? <br/>
 > pwd to print working directory and see where we are.
 
 Let's get a few special things out of the way as well for command line. When
@@ -119,7 +119,8 @@ echo "HELLO WORLD" > test_file.txt
 Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
-> Hint: we learned how to list all the files up above.
+> Hint: we learned how to list all the files up above. <br/>
+> Save to file instead of printing on screen.
 
 The greater than says, "put that output into the following file instead."
 
@@ -144,8 +145,9 @@ installed. Just swap in `wget` any place you see `curl`)_
 This prints the data directly to stdout and we can see the whole dataset.
 Nice. 
 
-> Let's save the output of the `curl` command to a file called `data.txt`. How
-would we do that?
+> Question 2: Let's save the output of the `curl` command to a file called `data.txt`. How
+would we do that?<br/>
+> Use the greater than symbol. > data.txt
 
 Now that we have the data file, let's learn how to manipulate files.
 
@@ -192,7 +194,8 @@ We can get even fancier by adding a second flag
 ls -lh
 ```
 
-> What changed?
+> Question 3: What changed? <br/>
+> The units of each file size was given.
 
 If instead copying we just want to change the name of a file, we can do:
 
